@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 600px;
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(168, 168, 168);
+    background: rgb(34,198,200);
+    background: linear-gradient(180deg, rgba(34,198,200,1) 0%, rgba(255,255,255,1) 30%);
+}
+
+h2{
+    display: inline;
+    vertical-align: 10px;
+}
+
+a{
+    color: blue;
+    text-decoration: underline;
+}
+
+#profile_picture{
+    width: 90px;
+    margin-top: 10px;
+}
+
+#location{
+    width: 15px;
+    margin: 5px;
+}
+
+#gear{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 15px;
+}

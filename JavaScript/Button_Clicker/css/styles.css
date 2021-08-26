@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 600px;
+}
+
+.title_bar{
+    padding: 10px;
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.central_box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ninja_box{
+    width: 340px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side_bar{
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center
+}
+
+.add_box{
+    width: 200px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    vertical-align: top;
+}
+
+
+
+
+
+
+
+p{
+    flex: 2;
+}
+
+a{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h4{
+    font-size: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+#login{
+    color: white;
+    background-color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 3px 3px 5px black;
+}
+
+#likes{
+    color: black;
+    background-color: rgb(224, 186, 12);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+#add{
+    color: black;
+    background-color: rgba(70, 177, 75, 0.993);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 3px 3px 5px black;
+}

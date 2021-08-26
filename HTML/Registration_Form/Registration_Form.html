@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>My Registration FOrm</title>
+    </head>
+    <body>
+        <form>
+            <h1>My Registration Form</h1>
+        
+            <label for="first_name">First Name: *</label>
+            <input type="text" id="first_name" name="first_name">
+            
+            <label for="last_name">Last Name: *</label>
+            <input type="text" id="last_name" name="last_name">
+            
+            <label for="email">Email: *</label>
+            <input type="text" id="email" name="email">
+            
+            <label for="password">Password: *</label>
+            <input type="password" id="password" name="password">
+        
+            <label for="pw_confirm">Confirm Password: *</label>
+            <input type="password" id="pw_confirm" name="password_confirmation">
+        
+            <label for="birthdate">Birthday</label>
+            <input type="date" id="birthdate" name="birthdate">
+        
+            <p>Gender Identity:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="non-binary" name="gender" value="non-binary">
+            <label for="female">Non-Binary</label>
+            <input type="radio" id="decline" name="gender" value="decline">
+            <label for="decline">I prefer not to answer</label>
+            
+            <p>A short description about myself:</p>
+            <textarea name="description"></textarea>
+
+            <label for="language">Favorite Language:</label>
+            <select></select>
+
+            <input type="checkbox" id="updates" value="yes">
+            <label for="yes">Yes, I would like to receive periodic email updates</label>
+        
+            <input type="submit" value="Create Account">
+
+            <p>* Indicates a required field</p>
+        </form>
+    </body>
+</html>

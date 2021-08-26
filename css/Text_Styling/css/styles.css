@@ -1,0 +1,26 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+
+span{
+    color: rgb(28, 241, 241);
+    padding: 0px;
+    margin: 0px;
+}
+h2{
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    background-color: lightblue;
+    text-align: right;
+    text-decoration: underline;
+}

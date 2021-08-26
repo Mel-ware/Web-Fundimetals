@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header_box{
+    width: 900px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(192, 192, 192);
+}
+
+#main_body_wrapper{
+    width: 900px;
+    padding: 10px;
+    background: rgb(42,23,57);
+    background: linear-gradient(90deg, rgba(42,23,57,1) 25%, rgba(92,43,130,1) 50%, rgba(42,23,57,1) 75%);
+}
+
+.about_row{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about_box{
+    width: 400px;
+    margin: 10px;
+    background-color: white;
+}
+
+.three_tabs{
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.La_Mode{
+    background-color: white;
+    width: 270px;
+}
+
+.Fmaily_Contacts{
+    background-color: white;
+    width: 270px;
+}
+
+.five_Eleven{
+    background-color: white;
+    width: 270px;
+}
+
+.contact_information{
+    width: 900px;
+    padding: 10px;
+    background-color: rgb(192, 192, 192);
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+#me{
+    width: 400px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+#big{
+    width: 250px;
+}
+
+#small{
+    width: 38px;
+    margin: 5px;
+}
+
+#smaller{
+    width: 17px;
+}
+
+p{
+    padding: 7px;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+    background: rgb(145,145,145);
+    background: linear-gradient(0deg, rgba(145,145,145,1) 25%, rgba(97,97,97,1) 50%, rgba(145,145,145,1) 75%);
+    padding: 7px;
+}
+
+h3{
+    padding: 5px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h5{
+    text-decoration: underline;
+}
+
+h6{
+    font-size: 20px;
+}

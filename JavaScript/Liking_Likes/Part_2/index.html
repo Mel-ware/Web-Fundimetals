@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes Part 2</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id=background>
+        <div class=container>
+            <h1>Network</h1>
+            <h2>Your Feed</h2>
+            <div class="main_body">
+                <div class="main_user">
+                    <img src="./images/user-circle.png" id="avatar">
+                    <a>Add an avatar</a>
+                    <h2>James Doe</h2>
+                </div>
+
+                <!-- this is where the others comments begin -->
+                <!-- both their likes and their specific ID's will be put into arrays and will thus call on the same function to increase the likes -->
+                <div class=others>
+                    <div class=other_users>
+                        <div class=box>
+                            <h2>Neil M</h2>
+                            <p id="count1">9 like(s)</p>
+                            <button class="btn" onclick="increaseLikes(0)">Like</button>
+                        </div>
+                        <p>I just set up this new discord bot, let me know what you all think. <a>link</a></p>
+                    </div>
+
+                    <div class=other_users>
+                        <div class=box>
+                            <h2>Nichole K</h2>
+                            <p id="count2">12 like(s)</p>
+                            <button class="btn" onclick="increaseLikes(1)">Like</button>
+                        </div>
+                        <p>Just finished my <a>next comic</a>, check it out.</p>
+                    </div>
+
+                    <div class=other_users>
+                        <div class=box>
+                            <h2>Jim R</h2>
+                            <p id="count3">9 like(s)</p>
+                            <button class="btn" onclick="increaseLikes(2)">Like</button>
+                        </div>
+                        <p>I can't stop listening to the <a>new album.</a> Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
